@@ -16,4 +16,8 @@ export class AlertButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleContentVisibility() {
+    this.hideContent = !this.hideContent;
+  }
+
 }
